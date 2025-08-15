@@ -1,2 +1,2 @@
-node_modules/
-.env
+products = ["head light", "bonnet", "side mirro"]
+print("avaliable products is : , products")
