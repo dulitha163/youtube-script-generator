@@ -1,11 +1,14 @@
 # youtube-script-generator
 Generate AI-powered YouTube scripts using Python
 
+```python
+import random
+
 def generate_script(topic):
     intros = [
-        f"Welcome back to the channel! Today, we’re diving into {topic}.",
-        f"Hello everyone! In this video, we’ll explore {topic}.",
-        f"Let’s talk about {topic} – something that’s trending right now!"
+        f"Welcome back to the channel! Today, we're diving into {topic}.",
+        f"Hello everyone! In this video, we'll explore {topic}.",
+        f"Let's talk about {topic} – something that's trending right now!"
     ]
 
     middles = [
@@ -28,3 +31,4 @@ if __name__ == "__main__":
     script = generate_script(topic)
     print("\n--- Generated YouTube Script ---\n")
     print(script)
+```
